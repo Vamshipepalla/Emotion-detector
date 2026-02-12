@@ -6,7 +6,7 @@ from deepface import DeepFace
 # Website Settings
 st.set_page_config(page_title="Emotion Detector", page_icon="😎")
 
-st.title("AI Emotion Scanner 📸")
+st.title("Vamshi Emotion Detector 📸")
 st.write("Take a selfie below to check your mood!")
 
 # Colors for Boxes
@@ -50,4 +50,5 @@ if img_file_buffer is not None:
                 st.balloons()
 
     except:
+
         st.error("Face sarigga kanipinchadam ledu. Malli try cheyandi.")
